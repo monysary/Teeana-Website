@@ -20,6 +20,10 @@ header > h1 {
     width: 100px;
 }
 
+.row {
+    margin: auto;
+}
+
 .row > * {
     padding: 0px;
 }

@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Home</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -31,15 +31,15 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active" aria-current="page" href="#">Shop</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
+                        <a class="nav-link" href="#">Photo</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                             data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
+                            Art
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="#">Action</a></li>
@@ -51,7 +51,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled">Disabled</a>
+                        <a class="nav-link disabled">About</a>
                     </li>
                 </ul>
                 <form class="d-flex">
@@ -63,7 +63,7 @@
     </nav>
 
     <main>
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <section id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                     aria-current="true" aria-label="Slide 1"></button>
@@ -73,7 +73,7 @@
                     aria-label="Slide 3"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000000">
+                <div class="carousel-item active">
                     <img src="./assets/images/latte-head-tilt.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
@@ -93,7 +93,71 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
-        </div>
+        </section>
+
+        <section>
+            <h2>Products</h2>
+            <div class="row d-flex justify-content-evenly">
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/monicstan-wedding-candid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Product type</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/mom-brunch.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Product type</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/pothos.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Product type</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="./assets/images/mony-candid.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <p class="card-title">Product type</p>
+                        <div class="d-flex justify-content-center">
+                            <a href="#" class="btn btn-primary">Shop</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section>
+            <h3>Zine Catalogue</h3>
+            <div class="overflow">
+                <figure class="figure">
+                    <figcaption class="figure-caption">Vol. 1</figcaption>
+                    <img src="./assets/images/mony-chyna-posed.jpg" class="figure-img rounded" alt="...">
+                </figure>
+                <figure class="figure">
+                    <figcaption class="figure-caption">Vol. 2</figcaption>
+                    <img src="./assets/images/mony-chyna-candid.jpg" class="figure-img rounded" alt="...">
+                </figure>
+                <figure class="figure">
+                    <figcaption class="figure-caption">Vol. 3</figcaption>
+                    <img src="./assets/images/mom-headshot.jpg" class="figure-img rounded" alt="...">
+                </figure>
+                <figure class="figure">
+                    <figcaption class="figure-caption">Vol. 4</figcaption>
+                    <img src="./assets/images/mom-fullbody.jpg" class="figure-img rounded" alt="...">
+                </figure>
+            </div>
+        </section>
 
     </main>
 
